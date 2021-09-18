@@ -17,6 +17,7 @@ h2 {
   height: 20rem;
   border: 1px solid darkblue;
   text-align: center;
+  padding: 0.5rem; 
 }
 
 .grid-item:hover {
