@@ -53,20 +53,20 @@ console.log(colorCar("color"));
 
 //3
 
+
 const earth = {
   location: "Galaxy",
   position: 3,
-  type: "mixing",
+  type: "mixing"
 };
 
-planetInfo = function (planet) {
-  return;
-  planet.location + planet.position + planet.type;
+console.log (earth)
+
+function planetInfo(planet) {
+  return planet.location + " " + planet.position + " " + planet.type
 };
 
-planet = earth;
-
-console.log(planetInfo(planet));
+console.log (planetInfo(earth));
 
 //4
 function vehicleType(code) {
