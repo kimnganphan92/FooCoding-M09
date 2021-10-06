@@ -84,10 +84,14 @@ console.log (3===3?"yes":"no")
 console.log(3===3 && "yes"||"no")
 
 //6
-function vehicleType(code, age) {
-  return "blue", code, age;
-}
-console.log('"blue"', 1, ",", 5);
+
+function vehicleType (color,age,code) {
+let car = "a "+color+" "+age+" year old"+" car";
+let bike = "a "+color+" "+age+" year old"+" motorbike";
+if (code===1) {return car}
+  return bike}
+
+console.log (vehicleType("blue",5,1));
 
 //7
 let driveVerhicle = ["motorbike", "caravan", "bike"];
