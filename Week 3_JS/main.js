@@ -81,7 +81,7 @@ console.log (vehicleTypeNew("blue",2))
 
 //5
 console.log (3===3?"yes":"no")
-console.log(3===3 && "yes")
+console.log(3===3 && "yes"||"no")
 
 //6
 function vehicleType(code, age) {
