@@ -80,13 +80,7 @@ if (code===1) {return car}
 console.log (vehicleTypeNew("blue",2))
 
 //5
-if (3 === 3) {
-  console.log("yes");
-} else {
-  console.log("no");
-}
-console.log(3 === 3);
-console.log(3 === 9);
+console.log (3===3?"yes":"no")
 
 //6
 function vehicleType(code, age) {
