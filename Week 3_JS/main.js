@@ -69,15 +69,15 @@ function planetInfo(planet) {
 console.log (planetInfo(earth));
 
 //4
-function vehicleType(code) {
-  if (code === 1) {
-    return "a blue car";
-  }
-  if (code === 2) {
-    return "a blue motorbike";
-  }
-}
-console.log(vehicleType(2));
+
+function vehicleTypeNew (color,code) {
+let car = "a "+color+" car";
+let bike = "a "+color+" motorbike";
+
+if (code===1) {return car}
+  return bike}
+
+console.log (vehicleTypeNew("blue",2))
 
 //5
 if (3 === 3) {
