@@ -99,7 +99,11 @@ let driveVerhicle = ["motorbike", "caravan", "bike"];
 console.log(driveVerhicle);
 
 //9
-function vehicle(x, y, z) {}
+  function newVehicle (color, age, code){
+    return console.log("a "+color+" "+ age+" year old "+vehicleSelection[code-1]);
+  }
+newVehicle("green", 10, 2)
+
 
 //12
 var objectA = {};
