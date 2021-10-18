@@ -1,0 +1,49 @@
+/* PAGE STYLING */
+
+body {
+  align-items: center;
+  background-color: lightgreen;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: center;
+  width: 90vw;
+}
+
+.animation-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  background: white;
+  border-radius: 50%;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.flower {
+  height: 450px;
+  width: 450px;
+}
+/* ANIMATION STYLING: */
+@keyframes example {
+  0% {
+    background-color: #ffd6eb;
+  }
+  20% {
+    background-color: #ffbdde;
+  }
+  40% {
+    background-color: #ffa3d1;
+  }
+  60% {
+    background-color: #ff8ac4;
+  }
+  80% {
+    background-color: #ff70b8;
+  }
+  100% {
+    background-color: #ff61b0;
+  }
+}
